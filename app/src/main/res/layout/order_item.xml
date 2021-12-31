@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:padding="10dp"
+    android:background="#F4F4F4"
+    >
+    <LinearLayout
+
+
+        android:layout_weight="2"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:fontFamily="@font/serif"
+            android:textSize="16sp"
+            android:text="Đơn Hàng : "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </TextView>
+        <TextView
+            android:layout_weight="2"
+            android:id="@+id/txtOrderName"
+            android:fontFamily="@font/serif"
+            android:textSize="16sp"
+            android:text="abc: "
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:fontFamily="@font/serif"
+            android:textSize="16sp"
+            android:text="Trạng thái : "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </TextView>
+        <TextView
+            android:layout_weight="2"
+            android:id="@+id/txtStatus"
+            android:fontFamily="@font/serif"
+            android:textSize="16sp"
+            android:text="abc: "
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:fontFamily="@font/serif"
+            android:textSize="16sp"
+            android:text="Số lượng : "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </TextView>
+        <TextView
+            android:layout_weight="2"
+            android:id="@+id/txtQuantity"
+            android:fontFamily="@font/serif"
+            android:textSize="16sp"
+            android:text="abc: "
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:fontFamily="@font/serif"
+            android:textSize="16sp"
+            android:text="Tổng tiền : "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </TextView>
+        <TextView
+            android:layout_weight="2"
+            android:id="@+id/txtTotal"
+            android:fontFamily="@font/serif"
+            android:textSize="16sp"
+            android:text="abc: "
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    android:id="@+id/linearLayoutDc"
+    android:background="#F4F4F4"
+    >
+    <LinearLayout
+        android:layout_weight="4"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txtTenDiaChi"
+            android:layout_marginLeft="18sp"
+            android:text="Nhà riêng:"
+            android:fontFamily="@font/serif"
+            android:textSize="20sp"
+            android:textColor="@color/textcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_marginRight="200dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/black_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtTenNguoiDung"
+                android:textColor="@color/textcolor"
+                android:fontFamily="@font/serif"
+                android:textSize="16sp"
+                android:text="Tên: Nguyễn Văn An"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/txtDiaChi"
+                android:textColor="@color/textcolor"
+                android:fontFamily="@font/serif"
+                android:textSize="16sp"
+                android:text="Địa chỉ: 28, Ngô Mây, Kon Tum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/txtSoDienThoai"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/textcolor"
+                android:fontFamily="@font/serif"
+                android:textSize="16sp"
+                android:text="Số điện thoại: 0961640909"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btnDeleteDc"
+            android:backgroundTint="@color/textcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_baseline_delete_forever_24">
+
+        </Button>
+    </LinearLayout>
+</LinearLayout>
